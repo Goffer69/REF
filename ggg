@@ -1,0 +1,10 @@
+static void Main(string[] args)
+        {
+            int a=10, b=20;
+            bytplats(ref a, ref b);
+            Console.WriteLine(a+" "+b);
+        }
+        static void bytplats (ref int tal1, ref int tal2){
+            int temp = tal1;
+            tal1 = tal2;
+            tal2 = temp;
